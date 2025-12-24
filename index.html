@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Biradar | Frontend & UX</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">NB<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i data-feather="moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <div class="hero-wrapper">
+            
+            <div class="hero-text">
+                <div class="status-badge">
+                    <span class="status-dot"></span> Open to Work
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm Naveen.<br>
+                    <span class="gradient-text type-writer"></span><span class="cursor">|</span>
+                </h1>
+                <p class="hero-desc">
+                    A <strong>UI/UX Designer</strong> & <strong>Frontend Developer</strong> based in Bengaluru.
+                    Specializing in building real-world applications with Java, Python, and Modern Web Tech.
+                </p>
+                
+                <div class="cta-group">
+                    <a href="https://drive.google.com/file/d/1z1_a8YFw4xqLkKzt8zL7HVJ6h12BQDcD/view?usp=sharing" target="_blank" class="btn btn-primary">
+                        View Resume <i data-feather="eye"></i>
+                    </a>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/biradarnaveen-17" target="_blank" class="social-btn"><i data-feather="github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn"><i data-feather="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="Naveen Linkedin Profile.png" alt="Naveen Biradar" class="profile-img">
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about" class="container section-pad">
+        <h2 class="section-title">The Toolkit.</h2>
+        
+        <div class="bento-grid">
+            <div class="bento-box box-main">
+                <i data-feather="monitor" class="bento-icon"></i>
+                <h3>Frontend Architecture</h3>
+                <p>Building responsive, interactive interfaces using HTML5, Modern CSS, and JavaScript.</p>
+            </div>
+
+            <div class="bento-box box-square">
+                <div class="icon-circle pink"><i data-feather="figma"></i></div>
+                <h3>Figma</h3>
+                <p>UI/UX Design</p>
+            </div>
+
+            <div class="bento-box box-square">
+                <div class="icon-circle blue"><i data-feather="smartphone"></i></div>
+                <h3>Mobile First</h3>
+                <p>Responsive Layouts</p>
+            </div>
+
+            <div class="bento-box box-wide experience-box">
+                <div class="icon-circle orange"><i data-feather="briefcase"></i></div>
+                <div>
+                    <h3>Real-World Experience</h3>
+                    <p>Designed & Developed full-stack solutions for institutional use.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-container">
+            
+            <div class="skill-card">
+                <h3 class="skill-title">Languages</h3>
+                <div class="skill-tags">
+                    <span class="tech-badge"><i class="devicon-java-plain colored"></i> Java</span>
+                    <span class="tech-badge"><i class="devicon-python-plain colored"></i> Python</span>
+                    <span class="tech-badge"><i class="devicon-c-plain colored"></i> C</span>
+                    <span class="tech-badge"><i class="devicon-mysql-plain colored"></i> SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-title">Web Stack</h3>
+                <div class="skill-tags">
+                    <span class="tech-badge"><i class="devicon-html5-plain colored"></i> HTML5</span>
+                    <span class="tech-badge"><i class="devicon-css3-plain colored"></i> CSS3</span>
+                    <span class="tech-badge"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                    <span class="tech-badge"><i class="devicon-java-plain"></i> JSP & Servlets</span>
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-title">AI & Tools</h3>
+                <div class="skill-tags">
+                    <span class="tech-badge"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
+                    <span class="tech-badge"><i class="devicon-git-plain colored"></i> Git</span>
+                    <span class="tech-badge"><i class="devicon-figma-plain colored"></i> Figma</span>
+                    <span class="tech-badge"><i class="devicon-vscode-plain colored"></i> VS Code</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="work" class="container section-pad">
+        <h2 class="section-title">Featured Projects.</h2>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Work</button>
+            <button class="filter-btn" data-filter="ui">UI/UX Designs</button>
+            <button class="filter-btn" data-filter="dev">Development</button>
+            <button class="filter-btn" data-filter="ai">AI Solutions</button>
+        </div>
+
+        <div class="projects-grid">
+            
+            <article class="project-card tilt-card" data-category="dev">
+                <div class="card-badge">Web App</div>
+                <img src="https://i0.wp.com/www.church-noticeboards.co.uk/wp-content/uploads/2021/02/Varicase-Wall-Mounted-External-Noticeboard-1.jpg" alt="Digital Notice Board" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Digital Notice Board</h3>
+                        <a href="https://github.com/biradarnaveen-17/Online-Notice-board.git" target="_blank"><i data-feather="github"></i></a>
+                    </div>
+                    <p><strong>Web Platform:</strong> A paperless solution for institutions to broadcast notices.</p>
+                    <div class="tags"><span>Web Dev</span><span>Database</span></div>
+                </div>
+            </article>
+
+            <article class="project-card tilt-card" data-category="ui">
+                <div class="card-badge">Figma Prototype</div>
+                <img src="https://cdn.images.express.co.uk/img/dynamic/59/1200x712/1647041_1.jpg" alt="Gmail Clone UI" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Gmail Interface Clone</h3>
+                        <a href="https://www.figma.com/proto/jDGAmL5pfj5NOcuoDbpuzx/Untitled?page-id=0%3A1&node-id=1-3&p=f&viewport=501%2C9%2C0.36&t=Dw0b3uH8YgzCkso3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=31%3A49" target="_blank"><i data-feather="figma"></i></a>
+                    </div>
+                    <p><strong>UI Redesign:</strong> A functional prototype of the Gmail interface focusing on clean hierarchy.</p>
+                    <div class="tags"><span>Prototyping</span><span>Interaction</span></div>
+                </div>
+            </article>
+
+            <article class="project-card tilt-card" data-category="ai">
+                <div class="card-badge">Python AI</div>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.JDN9gqHTEz4Q6FYpAGlqHQHaEK?pid=Api&P=0&h=220" alt="Smart Attendance AI" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Smart Attendance AI</h3>
+                        <a href="https://github.com/biradarnaveen-17/AI-Based-Smart-Attendance-System.git" target="_blank"><i data-feather="github"></i></a>
+                    </div>
+                    <p><strong>Computer Vision:</strong> Automated attendance using Python & OpenCV face recognition.</p>
+                    <div class="tags"><span>Python</span><span>OpenCV</span><span>MySQL</span></div>
+                </div>
+            </article>
+            
+            <article class="project-card tilt-card" data-category="ui">
+                <div class="card-badge">Mobile App</div>
+                <img src="https://kiwi-panda.com/wp-content/uploads/2024/08/Language-Learning-Apps-vs.-Traditional-Classes.jpg" alt="Learning App UI" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>EdTech Learning App</h3>
+                        <a href="https://www.figma.com/proto/KAJq5tLlqh2e0479AqeROw/1BY23IS132?page-id=0%3A1&node-id=5-20&p=f&viewport=409%2C235%2C0.18&t=KFA2GqKcj2R34HDn-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A54" target="_blank"><i data-feather="figma"></i></a>
+                    </div>
+                    <p><strong>Mobile UX:</strong> Designed a seamless learning experience for students with progress tracking.</p>
+                    <div class="tags"><span>Mobile UX</span><span>Education</span></div>
+                </div>
+            </article>
+
+            <article class="project-card tilt-card" data-category="ui">
+                <div class="card-badge">Web Design</div>
+                <img src="https://www.weetechsolution.com/wp-content/uploads/2022/12/imgpsh_fullsize_anim.jpg" alt="College Social Media" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>College Social Network</h3>
+                        <a href="https://www.figma.com/proto/WOdaOG3DFOAbRopVpqzpjY/Untitled?page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&t=9lz9LS8dVDUvbwqa-1" target="_blank"><i data-feather="figma"></i></a>
+                    </div>
+                    <p><strong>Campus Connect:</strong> A dedicated social platform design for college students.</p>
+                    <div class="tags"><span>Web UI</span><span>Community</span></div>
+                </div>
+            </article>
+
+            <article class="project-card tilt-card" data-category="ui">
+                <img src="https://strapi-file-uploads.parkplus.io/5_BMW_M8_Coupe_284aed6741.webp" alt="Car Brochure" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Digital Car Brochure</h3>
+                        <a href="https://www.figma.com/design/tI4uFTAoRBLY4REoJza8qS/Untitled?node-id=0-1&t=ACe6Qv3rKqUF5khl-1" target="_blank"><i data-feather="figma"></i></a>
+                    </div>
+                    <p><strong>Visual Design:</strong> High-impact layout and typography design for automotive marketing.</p>
+                    <div class="tags"><span>Graphic Design</span><span>Layout</span></div>
+                </div>
+            </article>
+
+            <article class="project-card tilt-card" data-category="ui">
+                <img src="https://mundobytes.com/wp-content/uploads/2025/02/como-programar-el-envio-de-emails-en-Outlook-7.webp" alt="Email Poster" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Email Campaign Poster</h3>
+                        <a href="https://www.figma.com/design/3OEyDusvq273xrPAamjME1/Untitled?node-id=0-1&t=tuoQz5HYkDYLO0ql-1" target="_blank"><i data-feather="figma"></i></a>
+                    </div>
+                    <p><strong>Marketing Asset:</strong> Designed an engaging email poster focused on conversion.</p>
+                    <div class="tags"><span>Visuals</span><span>Marketing</span></div>
+                </div>
+            </article>
+            
+            <article class="project-card tilt-card" data-category="dev">
+                <div class="card-badge">Full Stack</div>
+                <img src="https://img1.wsimg.com/isteam/ip/82290d21-ed9d-498b-902b-ca2c6743630a/blob.png" alt="AgriMitra Dashboard" class="project-img">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>AgriMitra Market</h3>
+                        <a href="https://github.com/biradarnaveen-17/Agrimitra.git" target="_blank"><i data-feather="github"></i></a>
+                    </div>
+                    <p><strong>Java System:</strong> Farmer marketplace connecting farmers directly to buyers.</p>
+                    <div class="tags"><span>Java JSP</span><span>Servlets</span><span>MySQL</span></div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container section-pad">
+        <h2 class="section-title">Let's Connect.</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Got a project?</h3>
+                <p>I am currently open for Frontend & UI roles. Based in Bengaluru.</p>
+                <div class="info-item">
+                    <i data-feather="mail"></i>
+                    <a href="mailto:biradarnaveen17@gmail.com">biradarnaveen17@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i data-feather="map-pin"></i>
+                    <span>Bengaluru, India</span>
+                </div>
+            </div>
+
+            <form action="mailto:biradarnaveen17@gmail.com" method="GET" enctype="text/plain" class="contact-form">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" required placeholder="Naveen Biradar">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" required placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="container footer">
+        <p>© 2025 Naveen Biradar. Designed & Coded from scratch.</p>
+        
+        <div class="visitor-badge">
+            <i data-feather="eye" class="eye-icon"></i>
+            <span id="visit-count">Loading...</span> 
+            <span>Views</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
